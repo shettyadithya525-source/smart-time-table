@@ -1,0 +1,2 @@
+
+<script>window.addEventListener('load',()=>{const box=s=>{const r=document.querySelector(s).getBoundingClientRect();return{x:r.x,width:r.width,right:r.right}};document.title=JSON.stringify({viewport:innerWidth,doc:document.documentElement.scrollWidth,body:document.body.scrollWidth,main:box('main'),stats:box('.stats'),stat:box('.stat'),shell:box('.shell'),grid:getComputedStyle(document.querySelector('.stats')).gridTemplateColumns})})</script>
